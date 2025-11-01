@@ -9,11 +9,10 @@ It includes **data loading, cleaning, EDA (temporal & spatial), statistical anal
 ## 📁 Project Structure
 ```
 lightning_analysis/
-├─ data/                    # Put the dataset CSV file here (e.g., lightning strikes dataset.csv)
 ├─ notebooks/
-│  └─ analysis.ipynb        # Main Jupyter notebook with all steps
+│  └─ lightning_analysis.ipynb        # Main Jupyter notebook with all steps
 ├─ scripts/
-│  └─ utils.py              # Optional helper functions (placeholders)
+│  └─ data_utils.py              # Optional helper functions (placeholders)
 ├─ outputs/                 # Generated charts & maps (HTML/PNG)
 ├─ README.md                # (this file)
 └─ .gitignore               # ignores checkpoints, cache, outputs
